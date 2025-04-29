@@ -35,7 +35,6 @@ public class ejercisio3 {
         }
 
 
-
         // Mostrar resultados
         System.out.println("\n--- Detalles de la compra ---");
         System.out.println("Valor en pesos (sin comisión): $" + valorEnPesos);

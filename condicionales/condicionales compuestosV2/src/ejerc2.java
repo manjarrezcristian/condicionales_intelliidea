@@ -33,7 +33,7 @@ public class ejerc2 {
         salario_sin_pension = salario_base - descuento_pension;
 
 
-       if (horas >= 48) {
+        if (horas >= 48) {
             bonificacion = salario_sin_pension * 0.10;
 
         }
@@ -41,7 +41,7 @@ public class ejerc2 {
             retencion = salario_sin_pension * 0.08;
 
         }
-        salarioTotal= salario_sin_pension + bonificacion - retencion;
+        salarioTotal = salario_sin_pension + bonificacion - retencion;
 
         System.out.println("usted se gana" + salario_base);
         System.out.println("usted se gana" + salario_sin_pension);
